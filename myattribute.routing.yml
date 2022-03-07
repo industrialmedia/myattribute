@@ -1,0 +1,91 @@
+entity.myattribute.collection:
+  path: '/admin/commerce/myattribute'
+  defaults:
+    _entity_list: 'myattribute'
+    _title: 'List attributes'
+  requirements:
+    _permission: 'administer myattribute entity'
+
+entity.myattribute.canonical:
+  path: '/admin/commerce/myattribute/{myattribute}/edit'
+  defaults:
+    _entity_form: myattribute.edit
+    _title: 'Edit attribute'
+  requirements:
+    _entity_access: 'myattribute.edit'
+
+entity.myattribute.edit_form:
+  path: '/admin/commerce/myattribute/{myattribute}/edit'
+  defaults:
+    _entity_form: myattribute.edit
+    _title: 'Edit attribute'
+  requirements:
+    _entity_access: 'myattribute.edit'
+
+entity.myattribute.add_form:
+  path: '/admin/commerce/myattribute/add'
+  defaults:
+    _entity_form: myattribute.add
+    _title: 'Add attribute'
+  requirements:
+    _entity_create_access: 'myattribute'
+
+entity.myattribute.delete_form:
+  path: '/admin/commerce/myattribute/{myattribute}/delete'
+  defaults:
+    _entity_form: myattribute.delete
+    _title: 'Delete attribute'
+  requirements:
+    _entity_access: 'myattribute.delete'
+
+entity.myattribute.list_attribute_values:
+  path: '/admin/commerce/myattribute/{myattribute}'
+  defaults:
+    _entity_list: 'myattribute_value'
+    _title_callback: '\Drupal\myattribute\Controller\MyattributeController::listAttributeValuesTitle'
+  requirements:
+    _permission: 'view myattribute entity'
+
+
+
+
+
+
+
+
+entity.myattribute_value.add_form:
+  path: '/admin/commerce/myattribute/{myattribute}/add'
+  defaults:
+    _entity_form: myattribute_value.add
+    _title: 'Add attribute value'
+  requirements:
+    _entity_create_access: 'myattribute_value'
+
+entity.myattribute_value.delete_form:
+  path: '/admin/commerce/myattribute_value/{myattribute_value}/delete'
+  defaults:
+    _entity_form: myattribute_value.delete
+    _title: 'Delete attribute value'
+  requirements:
+    _entity_access: 'myattribute_value.delete'
+
+
+
+entity.myattribute_value.canonical:
+  path: '/admin/commerce/myattribute_value/{myattribute_value}/edit'
+  defaults:
+    _entity_form: myattribute_value.edit
+    _title: 'Edit attribute value'
+  requirements:
+    _entity_access: 'myattribute_value.edit'
+
+entity.myattribute_value.edit_form:
+  path: '/admin/commerce/myattribute_value/{myattribute_value}/edit'
+  defaults:
+    _entity_form: myattribute_value.edit
+    _title: 'Edit attribute value'
+  requirements:
+    _entity_access: 'myattribute_value.edit'
+
+
+

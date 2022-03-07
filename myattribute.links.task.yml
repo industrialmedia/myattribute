@@ -1,0 +1,23 @@
+entity.myattribute.collection:
+  route_name: entity.myattribute.collection
+  title: 'Attributes'
+  base_route: entity.myattribute.collection
+
+entity.myattribute.edit_form:
+  route_name: entity.myattribute.edit_form
+  base_route: entity.myattribute.edit_form
+  title: Edit
+
+entity.myattribute.delete_form:
+  route_name:  entity.myattribute.delete_form
+  base_route:  entity.myattribute.edit_form
+  title: Delete
+  weight: 10
+
+
+entity.myattribute.list_attribute_values:
+  route_name: entity.myattribute.list_attribute_values
+  title: 'Attribute values'
+  base_route: entity.myattribute.list_attribute_values
+
+

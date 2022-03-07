@@ -1,0 +1,28 @@
+administer myattribute entity:
+  title: 'Administer myattribute entity'
+  restrict access: TRUE
+
+view myattribute entity:
+  title: 'View myattribute entity'
+add myattribute entity:
+  title: 'Add myattribute entity'
+edit myattribute entity:
+  title: 'Edit myattribute entity'
+delete myattribute entity:
+  title: 'Delete myattribute entity'
+
+
+administer myattribute_value entity:
+  title: 'Administer myattribute_value entity'
+  restrict access: TRUE
+
+view myattribute_value entity:
+  title: 'View myattribute_value entity'
+add myattribute_value entity:
+  title: 'Add myattribute_value entity'
+edit myattribute_value entity:
+  title: 'Edit myattribute_value entity'
+delete myattribute_value entity:
+  title: 'Delete myattribute_value entity'
+
+

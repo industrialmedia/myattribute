@@ -1,0 +1,46 @@
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Add attribute"
+msgstr "Добавить атрибут"
+
+msgid "Attribute name"
+msgstr "Название"
+
+msgid "List attributes"
+msgstr "Атрибуты"
+
+msgid "Edit attribute"
+msgstr "Редактировать"
+
+msgid "The attribute has been add."
+msgstr "Атрибут успешно добавлено."
+
+msgid "The attribute has been updated."
+msgstr "Атрибут успешно обновлен."
+
+msgid "Add attribute"
+msgstr "Добавить атрибут"
+
+msgid "List attribute values"
+msgstr "Список значений"
+
+msgid "List attribute values"
+msgstr "Список значений"
+
+msgid "Add attribute value"
+msgstr "Добавить значение"
+
+msgid "The attribute value has been add."
+msgstr "Значение успешно добавлено."
+
+msgid "The attribute value has been updated."
+msgstr "Значение успешно обновлено."
+
+msgid "Myattribute entity"
+msgstr "Атрибут"
+
+
+
+

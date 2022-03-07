@@ -1,0 +1,12 @@
+entity.myattribute.add_form:
+  route_name: entity.myattribute.add_form
+  title: 'Add attribute'
+  appears_on:
+    - entity.myattribute.collection
+
+entity.myattribute_value.add_form:
+  route_name: entity.myattribute_value.add_form
+  title: 'Add attribute value'
+  appears_on:
+    - entity.myattribute.list_attribute_values
+

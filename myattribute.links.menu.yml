@@ -1,0 +1,7 @@
+entity.myattribute.collection:
+  title: 'List attributes'
+  route_name: entity.myattribute.collection
+  parent: system.admin_content
+  description: 'List attributes.'
+  weight: 50
+
